@@ -1,6 +1,6 @@
-[google-chrome]
-name=Google Chrome
-baseurl=http://dl.google.com/linux/chrome/rpm/stable/$basearch
+[google-talkplugin]
+name=Google Talkplugin
+baseurl=http://dl.google.com/linux/talkplugin/rpm/stable/$basearch
 enabled=1
 gpgcheck=1
-gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-google-talkplugin

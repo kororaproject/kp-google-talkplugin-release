@@ -1,6 +1,6 @@
 Name:       google-talkplugin-release
 Version:    1.0
-Release:    2%{?dist}
+Release:    2%{?dist}.1
 Summary:    Google talkplugin repository configuration
 
 Group:      System Environment/Base
