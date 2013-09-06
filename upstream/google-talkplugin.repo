@@ -1,6 +1,6 @@
 [google-talkplugin]
 name=Google Talkplugin
 baseurl=http://dl.google.com/linux/talkplugin/rpm/stable/$basearch
-enabled=1
+enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-google-talkplugin
