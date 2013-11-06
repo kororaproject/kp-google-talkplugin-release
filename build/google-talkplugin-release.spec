@@ -1,6 +1,6 @@
 Name:       google-talkplugin-release
 Version:    1.0
-Release:    3%{?dist}
+Release:    4%{?dist}
 Summary:    Google talkplugin repository configuration
 
 Group:      System Environment/Base
@@ -36,6 +36,9 @@ rm -rf $RPM_BUILD_ROOT
 %config(noreplace) /etc/yum.repos.d/google-talkplugin.repo
 
 %changelog
+* Wed Nov 6 2013 Chris Smart <csmart@kororaproject.org> - 1.0-4
+- Fix GPG key.
+
 * Sat Sep 7 2013 Chris Smart <csmart@kororaproject.org> - 1.0-3
 - Disable repo by default so that users can just enable the repo to make it work
 
